@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+form {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #649cb4, #3d4f60);
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 75vw;
+  background-color: rgb(194, 194, 194);
+  border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 88vh;
+  background-image: url(images/wrapp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  padding: 40px;
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.form-container h1 {
+  margin-top: 37px;
+  color: #d4af37;
+  text-align: center;
+  font-family: "Baloo Bhaina", cursive;
+  font-size: 55px;
+}
+
+.form-container input {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 35px;
+  border: none;
+  border-bottom: 1px solid rgba(196, 208, 27, 0.4);
+  border-radius: 0;
+  margin-left: 50px;
+}
+
+.gender-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.gender-container label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-container button[type="submit"] {
+  width: 213px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4a94c4;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  height: 58px;
+  margin-top: 40px;
+  margin-left: 200px;
+  font-family: inter;
+  font-weight: 500;
+}
+.form-container button[type="submit"]:hover {
+  background-color: #046baf;
+}
+
+.image-container {
+  flex: 1.25;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: 70%;
+  padding-right: 40px; /* To make room for the icon */
+}
+
+.toggle-password {
+  position: absolute;
+  right: -44px;
+  top: 21%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="appointments.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/clear1 1.png" alt="Clear Thoughts Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+        <a href="signup.html" class="get-started-btn">Get Started</a>
+      </nav>
+    </header>
+    <section class="appointment-section">
+      <div class="appointment-container">
+        <div class="appointment-left">
+          <h1>Appointment</h1>
+          <p class="tagline">
+            "Book today, take a step toward better well-being."
+          </p>
+          <form class="appointment-form">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Full Name" required />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <select id="services">
+                <option value="" disabled selected>Select Services</option>
+                <option value="service1">Service 1</option>
+                <option value="service2">Service 2</option>
+                <option value="service3">Service 3</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <input type="date" id="date" required />
+            </div>
+            <button type="submit" class="submit-btn">
+              Book an Appointment
+            </button>
+          </form>
+        </div>
+        <div class="appointment-right">
+          <h2><span class="makean">Make an</span> Appointment</h2>
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>Contact</strong><br />
+                +977 9812276928
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Address</strong><br />
+                Kalanki, Kathmandu
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Opening Hours</strong><br />
+                Monday - Saturday (10:00 - 9:00)<br />
+                Sunday (Closed)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="images/clear1 1.png"
+            alt="Clear Thoughts Logo"
+            class="footer-logo"
+          />
+          <p class="footer-text">
+            "Prioritize your well-being: Explore, understand, and nurture your
+            mental health."
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><i class="fas fa-phone-alt"></i> +977 9812276928</li>
+            <li><i class="fas fa-envelope"></i> clearthoughts@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Kalanki, Kathmandu</li>
+          </ul>
+        </div>
+        <div class="footer-legal">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term Of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>copyright &copy; 2023 @mindfulcare all rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="appointments.js"></script>
+  </body>
+</html>

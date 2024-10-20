@@ -1,0 +1,529 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: TT Bluescreens Trl Cnd;
+  src: url(TT\ Bluescreens\ Trial\ Condensed\ ExtraBold.ttf);
+}
+body {
+  font-family: "open sans", sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.header {
+  position: relative;
+  height: 507px;
+  background: url("images/meditate.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
+  background-position: right 0px top 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.2);
+  font-family: jost;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.logo img {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.get-started-btn {
+  background-color: #d4af37;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 550;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  padding: 0 50px;
+}
+
+.hero-content {
+  max-width: 580px;
+  margin-left: 86px;
+  font-family: jost;
+}
+
+.hero-content p {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.appointment-btn {
+  background-color: #d4af37;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  font-weight: 600;
+  z-index: 5;
+}
+
+.hero-text h1 {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+}
+
+.hero-text {
+  text-align: right;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.nav-links li a:hover {
+  color: #d4af37;
+}
+
+.get-started-btn:hover {
+  background-color: #b58e2b;
+  transform: scale(1.05);
+}
+.appointment-btn:hover {
+  background-color: #b58e2b;
+  transform: scale(1.05);
+}
+
+/* --------------------------------------------- */
+.mental-health-section {
+  text-align: center;
+  padding: 50px;
+  color: #555;
+}
+
+.mental-health-section h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: TT Bluescreens Trl Cnd;
+  color: #1f1f1f;
+}
+
+.mental-health-section p {
+  font-size: 20px;
+  max-width: 650px;
+  margin: 20px auto;
+  color: #1f1f1f;
+  font-family: Inria Serif;
+  line-height: normal;
+}
+
+.mental-health-section button {
+  margin: 20px;
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 2px solid #d4af37;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: #d4af37;
+  cursor: pointer;
+  width: 150px;
+  font-family: jost;
+}
+
+.mental-health-section button:hover {
+  background-color: #b58e2b;
+  color: #fff;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 76px;
+  gap: 20px;
+}
+
+.image-placeholder {
+  width: 400px;
+  height: 400px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.brain {
+  position: absolute;
+  top: 380px;
+}
+
+/* ------------------- */
+
+.help-section {
+  display: flex;
+  align-content: center;
+  padding: 50px 50px 50px 50px;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.text-content {
+  max-width: 39%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+  font-family: jost;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 20.7px;
+  color: #555;
+  margin-bottom: 30px;
+  font-family: jost;
+}
+
+.btn {
+  display: inline-block;
+  padding: 22px 36px;
+  background-color: #d4af37;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 328px;
+}
+
+.btn:hover {
+  background-color: #bfa230;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.relief-section h1 {
+  color: #ffffff;
+  font-family: jost;
+  font-weight: 500;
+}
+.muscle {
+  position: absolute;
+}
+
+#help1 {
+  background-image: url(images/help1.jpeg);
+}
+
+#help2 {
+  background-image: url(images/help2.jpg);
+}
+
+#help3 {
+  background-image: url(images/help3.jpg);
+}
+
+#help4 {
+  background-image: url(images/help4.jpg);
+}
+/* ---------------------- */
+
+.manage-section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a94c4;
+  text-align: center;
+  font-family: jost;
+}
+
+.manage-section h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 46px;
+  font-family: TT Bluescreens Trl Cnd;
+}
+
+.circles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.circle,
+.oval-circle {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.oval-circle {
+  width: 400px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.circle p,
+.oval-circle p {
+  font-size: 58px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: TT Bluescreens Trl Cnd;
+}
+#helpManage {
+  font-family: TT Bluescreens Trl Cnd;
+  font-size: 100px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .manage-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .oval-circle {
+    width: 300px;
+    height: 150px;
+    border-radius: 75px;
+  }
+
+  .circle p,
+  .oval-circle p {
+    font-size: 1.25rem;
+  }
+
+  .circles-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .manage-section h2 {
+    font-size: 2rem;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .oval-circle {
+    width: 250px;
+    height: 120px;
+    border-radius: 60px;
+  }
+
+  .circle p,
+  .oval-circle p {
+    font-size: 1rem;
+  }
+}
+
+.circles-container {
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.circle,
+.oval-circle {
+  margin-bottom: 15px;
+}
+
+.one {
+  background-image: url(images/one.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.two {
+  background-image: url(images/two.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.three {
+  background-image: url(images/three.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four {
+  background-image: url(images/four.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.five {
+  background-image: url(images/five.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ------------------------------------------------- */
+footer {
+  background: linear-gradient(to right, #649cb4, #3d4f60);
+  padding: 40px 20px;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-links,
+.footer-contact,
+.footer-legal {
+  flex-basis: 22%;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-logo {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-legal h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-contact ul,
+.footer-legal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li,
+.footer-legal ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-legal ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links ul li a:hover,
+.footer-legal ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-contact ul li i {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-social {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.footer-social a:hover {
+  color: #f4a261;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ffffff;
+}
